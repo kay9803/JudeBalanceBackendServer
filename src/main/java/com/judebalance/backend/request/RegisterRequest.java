@@ -12,4 +12,5 @@ public class RegisterRequest {
     private String password;
     private String email;
     private String gender;  // ✨ 성별 추가
+    private String phone_number;   //폰번호 추가
 }
