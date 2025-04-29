@@ -65,6 +65,7 @@ public class AuthService {
             .password(hashed)
             .email(req.getEmail())
             .gender(req.getGender()) // ← 추가된 부분!
+            .phoneNumber(req.getPhone_number())   //폰번호 추가
             .build()
         );
 
